@@ -8,11 +8,11 @@ import javax.sql.DataSource;
 import java.sql.*;
 import java.util.NoSuchElementException;
 
-public class MemberRepositoryV1 {
+public class MemberRepositoryV2 {
 
     private final DataSource dataSource;
 
-    public MemberRepositoryV1(DataSource dataSource) {
+    public MemberRepositoryV2(DataSource dataSource) {
         this.dataSource = dataSource;
     }
 
